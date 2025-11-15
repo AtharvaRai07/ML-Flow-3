@@ -9,6 +9,9 @@ __pycache__/
 #logs
 logs
 
+#catboost logs
+notebook/catboost_info/
+
 # Distribution / packaging
 .Python
 build/

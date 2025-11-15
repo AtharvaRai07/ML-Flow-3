@@ -1,5 +1,4 @@
 import sys
-
 class CustomException(Exception):
     """A custom exception class that extends the built-in Exception class."""
 
@@ -12,5 +11,4 @@ class CustomException(Exception):
 
     def __str__(self):
         return f"Error occurred in script: {self.filename} at line number: {self.lineno} with message: {self.error_message}"
-
 
